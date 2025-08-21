@@ -1,59 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Home Page -->
   <url>
     <loc>https://manihr0008.github.io/Notes/</loc>
-    <lastmod>2025-08-21</lastmod>
     <priority>1.0</priority>
   </url>
 
-  <!-- Class 6 -->
   <url>
     <loc>https://manihr0008.github.io/Notes/class6.html</loc>
-    <lastmod>2025-08-21</lastmod>
     <priority>0.9</priority>
   </url>
 
-  <!-- Class 7 -->
   <url>
     <loc>https://manihr0008.github.io/Notes/class7.html</loc>
-    <lastmod>2025-08-21</lastmod>
     <priority>0.9</priority>
   </url>
 
-  <!-- Class 8 -->
   <url>
     <loc>https://manihr0008.github.io/Notes/class8.html</loc>
-    <lastmod>2025-08-21</lastmod>
     <priority>0.9</priority>
   </url>
 
-  <!-- Class 9 -->
   <url>
     <loc>https://manihr0008.github.io/Notes/class9.html</loc>
-    <lastmod>2025-08-21</lastmod>
     <priority>0.9</priority>
   </url>
 
-  <!-- Class 10 -->
   <url>
     <loc>https://manihr0008.github.io/Notes/class10.html</loc>
-    <lastmod>2025-08-21</lastmod>
     <priority>0.9</priority>
   </url>
 
-  <!-- Class 11 -->
   <url>
     <loc>https://manihr0008.github.io/Notes/class11.html</loc>
-    <lastmod>2025-08-21</lastmod>
     <priority>0.9</priority>
   </url>
 
-  <!-- Class 12 -->
   <url>
     <loc>https://manihr0008.github.io/Notes/class12.html</loc>
-    <lastmod>2025-08-21</lastmod>
     <priority>0.9</priority>
   </url>
 
