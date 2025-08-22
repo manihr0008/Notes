@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mathematics – ManiNotes</title>
+<style>
+  :root{
+    --brand:#2f89ff; --brand2:#6dd5fa; --ink:#1f2937; --bg:#f4f7fc; --card:#ffffff;
+    --muted:#6b7280; --ring:rgba(47,137,255,.25);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;
+       background:var(--bg);color:var(--ink)}
+  .wrap{max-width:980px;margin:auto;padding:28px 18px}
+  .subject-hero{
+    background:linear-gradient(135deg,var(--brand),var(--brand2));
+    color:#fff;border-radius:18px;padding:22px 22px 18px;box-shadow:0 16px 40px rgba(47,137,255,.25);
+    display:flex;align-items:center;gap:14px
+  }
+  .subject-emoji{font-size:40px;filter:drop-shadow(0 6px 12px rgba(0,0,0,.15))}
+  h1{margin:0;font-size:28px;line-height:1.2}
+  .crumbs{margin-top:6px;font-size:13px;opacity:.95}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:22px}
+  @media (max-width:720px){.grid{grid-template-columns:1fr}}
+  .card{
+    background:var(--card);border-radius:16px;padding:18px;box-shadow:0 10px 24px rgba(0,0,0,.08);
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease; border:1px solid transparent;
+    position:relative;overflow:hidden
+  }
+  .card:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(0,0,0,.12);border-color:var(--ring)}
+  .card h2{margin:2px 0 8px;font-size:20px}
+  .card p{margin:0;color:var(--muted);font-size:14px}
+  .pill{
+    position:absolute;top:12px;right:12px;font-size:12px;background:#eef4ff;color:#2b5cff;
+    padding:6px 10px;border-radius:999px;border:1px solid rgba(43,92,255,.15)
+  }
+  .btnrow{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  .btn{
+    display:inline-block;text-decoration:none;background:#eff6ff;border:1px solid rgba(47,137,255,.25);
+    color:#1154d6;padding:10px 12px;border-radius:12px;font-size:14px
+  }
+  footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="subject-hero">
+      <div class="subject-emoji">📐</div>
+      <div>
+        <h1>Mathematics Subject</h1>
+        <div class="crumbs">ManiNotes • Class 12</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <section class="card" id="chapters">
+        <div class="pill">Chapter-wise</div>
+        <h2>📚 Chapter-wise Solutions</h2>
+        <p>All chapters with step-by-step solutions & tips.</p>
+        <div class="btnrow">
+          <a class="btn" href="#">Ch 1 – Relations & Functions</a>
+          <a class="btn" href="#">Ch 2 – Inverse Trigonometric</a>
+          <a class="btn" href="#">Ch 3 – Matrices</a>
+          <a class="btn" href="#">Ch 4 – Determinants</a>
+          <a class="btn" href="#">Ch 5 – Continuity & Differentiability</a>
+          <a class="btn" href="#">Ch 6 – Applications of Derivatives</a>
+          <a class="btn" href="#">Ch 7 – Integrals</a>
+          <a class="btn" href="#">Ch 8 – Applications of Integrals</a>
+          <a class="btn" href="#">Ch 9 – Differential Equations</a>
+          <a class="btn" href="#">Ch 10 – Vector Algebra</a>
+          <a class="btn" href="#">Ch 11 – 3D Geometry</a>
+          <a class="btn" href="#">Ch 12 – Linear Programming</a>
+          <a class="btn" href="#">Ch 13 – Probability</a>
+        </div>
+      </section>
+
+      <section class="card" id="mcq">
+        <div class="pill">Practice</div>
+        <h2>❓ MCQ</h2>
+        <p>Chapter-wise and mixed objective tests.</p>
+        <div class="btnrow">
+          <a class="btn" href="#">MCQ – Calculus (Mixed)</a>
+          <a class="btn" href="#">MCQ – Algebra (Mixed)</a>
+          <a class="btn" href="#">MCQ – Vectors & 3D</a>
+          <a class="btn" href="#">Full Syllabus MCQ</a>
+        </div>
+      </section>
+
+      <section class="card" id="formula">
+        <div class="pill">Quick Revise</div>
+        <h2>🧠 Formula Sheets</h2>
+        <p>One-page chapter-wise formulas & identities.</p>
+        <div class="btnrow">
+          <a class="btn" href="#">Formulas – Calculus</a>
+          <a class="btn" href="#">Formulas – Algebra</a>
+          <a class="btn" href="#">Formulas – Vectors & 3D</a>
+          <a class="btn" href="#">Trigonometric Identities</a>
+        </div>
+      </section>
+
+      <section class="card" id="sample">
+        <div class="pill">Exam</div>
+        <h2>📝 Sample Papers</h2>
+        <p>Board-style papers with marking scheme.</p>
+        <div class="btnrow">
+          <a class="btn" href="#">Sample Paper – Set A</a>
+          <a class="btn" href="#">Sample Paper – Set B</a>
+          <a class="btn" href="#">Answer Keys</a>
+        </div>
+      </section>
+    </div>
+
+    <footer>© 2025 ManiNotes. All rights reserved.</footer>
+  </div>
+</body>
+</html>
